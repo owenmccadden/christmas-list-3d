@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #0a0a1a;
+  touch-action: manipulation;
+}
+
+.experience {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  touch-action: none;
+}
+
+.experience canvas {
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: none;
+  outline: none;
+}
+
+/* Gift tooltip */
+.gift-tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 100;
+  max-width: 280px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.gift-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Make tooltip clickable on touch devices - only when visible */
+@media (hover: none) and (pointer: coarse) {
+  .gift-tooltip.visible {
+    pointer-events: auto;
+    cursor: pointer;
+  }
+}
+
+.gift-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a472a;
+  margin-bottom: 6px;
+}
+
+.gift-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.gift-price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #c41e3a;
+  margin-bottom: 8px;
+}
+
+.gift-hint {
+  font-size: 12px;
+  color: #888;
+  font-style: italic;
+}
+
+/* Cursor styles */
+.experience.hovering {
+  cursor: pointer;
+}
+
+/* Attribution */
+.attribution {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+}
+
+.attribution span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.attribution span a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.attribution span a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.github-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}

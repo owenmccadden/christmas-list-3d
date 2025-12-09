@@ -1,0 +1,148 @@
+{
+  "gifts": [
+    {
+      "id": "gift-1",
+      "name": "Umbrella",
+      "description": "My current umbrella collapses in the wind, so it's pretty useless. This is the exact one I want after a bit of research (black, double canopy, wooden, non-J handle).",
+      "price": "$32",
+      "url": "https://baliosumbrellas.com/product/fdc-black/",
+      "color": "#1e1e1e"
+    },
+    {
+      "id": "gift-2",
+      "name": "Farmshare Bundle",
+      "description": "There is a farmshare service in DC that I've wanted to try out. There are a few different options, and you can do a one-off delivery rather than the subscription. I'm thinking we would typically do a produce and a meat share, but there are some other options and bundles as well on the website.",
+      "price": "",
+      "url": "https://thefarmbus.csaware.com/full-share-C8792",
+      "color": "#6b8e23"
+    },
+    {
+      "id": "gift-3",
+      "name": "Logitech MX Master 3S Ergonomic Mouse",
+      "description": "",
+      "price": "$110",
+      "url": "https://a.co/d/b4In5gg",
+      "color": "#4a4a4a"
+    },
+    {
+      "id": "gift-4",
+      "name": "Dr. Squatch Pack",
+      "description": "Also would be interested in other packs, but I already have a ton of their soap.",
+      "price": "$26",
+      "url": "https://a.co/d/j2Tlirx",
+      "color": "#228b22"
+    },
+    {
+      "id": "gift-5",
+      "name": "Precision Screwdriver Set",
+      "description": "",
+      "price": "$32",
+      "url": "https://a.co/d/fJjB54c",
+      "color": "#4169e1"
+    },
+    {
+      "id": "gift-6",
+      "name": "Luxardo Maraschino Cherries",
+      "description": "For Old Fashioned",
+      "price": "$25",
+      "url": "https://a.co/d/8mgrckf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": "gift-7",
+      "name": "Keychron V1 Max Keyboard",
+      "description": "",
+      "price": "$114",
+      "url": "https://www.keychron.com/products/keychron-v1-max-qmk-via-wireless-custom-mechanical-keyboard?variant=40637899669593",
+      "color": "#708090"
+    },
+    {
+      "id": "gift-8",
+      "name": "Pickleball Paddles",
+      "description": "Emma and I have pickleball starting up soon. Not sure if Emma is already planning on getting these, so might want to double check with her!",
+      "price": "",
+      "url": "",
+      "color": "#32cd32"
+    },
+    {
+      "id": "gift-9",
+      "name": "Skunk Works",
+      "description": "Memoir by Ben Rich about his time at Lockheed.",
+      "price": "$13",
+      "url": "https://a.co/d/ccJVXeg",
+      "color": "#2f4f4f"
+    },
+    {
+      "id": "gift-10",
+      "name": "The Idea Factory",
+      "description": "Book about Bell Labs.",
+      "price": "$16",
+      "url": "https://a.co/d/droSSUG",
+      "color": "#1e90ff"
+    },
+    {
+      "id": "gift-11",
+      "name": "Masters of Doom",
+      "description": "Biography on John Carmack and John Romero, creators of Doom and Quake8.",
+      "price": "$12",
+      "url": "https://a.co/d/cpqPFeE",
+      "color": "#8b0000"
+    },
+    {
+      "id": "gift-12",
+      "name": "Chip War",
+      "description": "Book about the semiconductor industry.",
+      "price": "$15",
+      "url": "https://a.co/d/gaql66A",
+      "color": "#00ced1"
+    },
+    {
+      "id": "gift-13",
+      "name": "Vinyl Records",
+      "description": "Emma and I have a record player that we don't use too often. We have a handful of records, but would love to grow our collection.",
+      "price": "",
+      "url": "",
+      "color": "#9932cc"
+    },
+    {
+      "id": "gift-14",
+      "name": "Socks",
+      "description": "Warm / thick winter socks.",
+      "price": "",
+      "url": "",
+      "color": "#ff69b4"
+    },
+    {
+      "id": "gift-15",
+      "name": "Omaha Steaks Bundle",
+      "description": "The gift of meat.",
+      "price": "",
+      "url": "",
+      "color": "#b22222"
+    },
+    {
+      "id": "gift-16",
+      "name": "Laptop Bag",
+      "description": "Emma and I went to an authentic leather store in Florence called Ciarugi, and I saw this laptop bag, but I didn't get it because it was pretty pricy, but now I wish that I had. I want to upgrade from my backpack and switch to a nicer leather bag for commuting. This is obviously out of budget for a family gift, but just something I like.",
+      "price": "$458",
+      "url": "https://www.detassenzaak.nl/en/products/chiarugi-aktetas-leer-classic-14-inch-heren-4304?srsltid=AfmBOootBooz_Hny4m_JZSrmQCeQYkGdhbPcoduvRE1PTdpQ-3czbzBZ",
+      "color": "#8b4513"
+    },
+    {
+      "id": "gift-17",
+      "name": "Flipper Zero with Wifi Card",
+      "description": "Cool gadget for accessing radio and infrared data.",
+      "price": "$235",
+      "url": "https://shop.flipperzero.one/products/flipper-zero",
+      "color": "#ff6600"
+    },
+    {
+      "id": "gift-18",
+      "name": "Swiss Pine Bowl",
+      "description": "When we were in Castelrotto, we found this woodshop that makes these beautiful carvings made out of Swiss pines that are 100s of years old. Supposedly the Swiss pine has some special antifungal property, so if you use it as a bowl for produce it lasts significantly longer. The owner of the woodshop was also a member of the \"famous\" Castelruthen Spatzen band: https://www.kastelrutherspatzen.de/. They had a museum in town dedicated to the band.",
+      "price": "$290",
+      "url": "https://www.kurtart.it/en/bowls/36-zirbenschale-stube-mittel.html",
+      "color": "#c19a6b"
+    }
+  ]
+}
