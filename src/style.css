@@ -110,17 +110,20 @@ html, body {
   font-size: 14px;
 }
 
-.attribution span {
-  color: rgba(255, 255, 255, 0.7);
+.created-by {
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.85);
+  transition: transform 0.3s ease;
 }
 
-.attribution span a {
-  color: rgba(255, 255, 255, 0.9);
+.created-by a {
+  color: rgba(255, 255, 255, 0.95);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.attribution span a:hover {
+.created-by a:hover {
   color: #fff;
   text-decoration: underline;
 }
@@ -131,7 +134,8 @@ html, body {
   gap: 6px;
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  padding: 8px 12px;
+  padding: 8px 14px;
+  font-size: 14px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   transition: background 0.2s ease, color 0.2s ease;
@@ -140,4 +144,135 @@ html, body {
 .github-link:hover {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
+}
+
+.view-list-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 8px 14px;
+  font-size: 14px;
+  font-family: inherit;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, opacity 0.3s ease, width 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+}
+
+.view-list-btn.hidden {
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  padding: 0;
+  margin-left: -16px;
+  overflow: hidden;
+}
+
+.view-list-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+/* List Modal */
+.list-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 200;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.list-modal.visible {
+  display: flex;
+}
+
+.list-modal-content {
+  background: #fff;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 32px;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #666;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px 8px;
+  transition: color 0.2s ease;
+}
+
+.close-modal-btn:hover {
+  color: #333;
+}
+
+.list-modal-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a472a;
+  margin-bottom: 24px;
+  padding-right: 40px;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.list-item {
+  display: block;
+  padding: 16px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  border-left: 4px solid;
+  text-decoration: none;
+}
+
+.list-item.clickable {
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.list-item.clickable:hover {
+  background: #f0f0f0;
+  transform: translateX(4px);
+}
+
+.list-item-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.list-item-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.list-item-price {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c41e3a;
 }

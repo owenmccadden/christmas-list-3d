@@ -188,6 +188,9 @@ export default class Camera {
           this.controls.maxPolarAngle = Math.PI / 2.1
           this.controls.enabled = true
         }
+
+        // Dispatch event for UI updates
+        window.dispatchEvent(new CustomEvent('enteredGlobe'))
       }
     } else if (this.controls) {
       this.controls.update()

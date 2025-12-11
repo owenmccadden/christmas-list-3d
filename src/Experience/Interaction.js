@@ -188,7 +188,15 @@ export default class Interaction {
   openGiftLink(giftMesh) {
     const url = giftMesh.userData.giftData.url
     if (url) {
-      window.open(url, '_blank', 'noopener,noreferrer')
+      // Use an actual anchor element click instead of window.open
+      // This is less likely to be blocked by corporate security policies
+      const link = document.createElement('a')
+      link.href = url
+      link.target = '_blank'
+      link.rel = 'noopener noreferrer'
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
     }
   }
 
